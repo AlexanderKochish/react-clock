@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  place-items: center;
+
+}
+
+.selected-session {
+  display: flex;
+}
+
+.selected-session > div {
+  margin: 20px;
+}
+
+.session-container {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.session-clock {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 70px;
+  box-shadow: 2px 4px 7px rgba(0, 0, 0, 0.7);
+}
+
+.session-clock > h2 {
+  font-size: 50px;
+}
+
+
+.display-btns {
+  margin: 10px 0;
+}
+
+.display-btn {
+  padding: 5px 10px;
+  background-color: inherit;
+  border: none;
+}
+
+.btn-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.btn-icon:hover {
+  color: rgb(0, 255, 242);
+  transition: all .3s ease;
+}
